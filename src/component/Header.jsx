@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 const Header=()=>{
     return(
         <>
@@ -6,21 +7,21 @@ const Header=()=>{
         <div className="header">
             <div className="conatiner">
                 <nav>
-                    <a to="index.html">
-                        <img src="images/logo.jpg" width="70px" height="70px" to="/index.html"/>
-                    </a>
+                    <Link to="index.html">
+                        <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/index.html"/>
+                    </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
                         <i className="fa fa-times" onclick="closemenu()"></i>
 
-                        <li><a to="About.html">ABOUT US </a><span><b>+</b></span></li>
-                        <li><a to="Eepertise.html">EXPERTISE</a><span><b>+</b></span></li>
-                        <li><a to="Solutions.html">SOLUTIONS</a><span><b>+</b></span></li>
-                        <li><a to="Thought-Center.html">THOUGHT CENTER</a><span><b>+</b></span></li>
-                        <li><a to="ContactUs.html">CONTACT US</a><span><b>+</b></span></li>
-                        <li><a to="JoinUs.html">JOIN US</a><span><b>+</b></span></li>
+                        <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
+                        <li><Link to="/expertise">EXPERTISE</Link><span><b>+</b></span></li>
+                        <li><Link to="/solutions">SOLUTIONS</Link><span><b>+</b></span></li>
+                        <li><Link to="/thought-Center">THOUGHT CENTER</Link><span><b>+</b></span></li>
+                        <li><Link to="/contactUs">CONTACT US</Link><span><b>+</b></span></li>
+                        <li><Link to="/joinUs">JOIN US</Link><span><b>+</b></span></li>
                     </ul>
-                    <i className="fa fa-bars" onclick="openmenu()"></i>
+                    <i className="fa fa-bars" onClick="openmenu()"></i>
                 </nav>
             </div>
             <div className="container-2">
