@@ -16,11 +16,11 @@ function App() {
       <Header />
       
       <Switch>
+        <Route path="/" exact component={Home}></Route>
         <Route path="/about" exact component={About}></Route>
         <Route path="/expertise" exact component={Expertise}></Route>
         <Route path="/contact" exact component={Contact}></Route>
         <Route path="/thought-Center" exact component={ThoughtCenter}></Route>
-        <Route path="/home" exact component={Home}></Route>
 
         
       </Switch>
