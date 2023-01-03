@@ -9,11 +9,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <App />
-<<<<<<< HEAD
     </BrowserRouter>
-=======
-  </BrowserRouter>
->>>>>>> 7d927940ffd050d0516548a40263150b38699d00
   </React.StrictMode>
 );
 

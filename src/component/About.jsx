@@ -1,7 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
-// import { Link } from "react-router-dom";
-const About=()=>{
+
+const About = () => {
+
     return(
         <>
         {/* <!-- ---------------header contain--------------- --> */}
@@ -14,7 +14,6 @@ const About=()=>{
                         <h1> TECHNOCRAT</h1>
                         <ul id="sidemenu">
                             <i className="fa fa-times" onclick="closemenu()"></i>
-
                             <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
                             <li><Link to="/Expertise">EXPERTISE</Link><span><b>+</b></span></li>
                             <li><Link to="/Solutions">SOLUTIONS</Link><span><b>+</b></span></li>
@@ -245,17 +244,7 @@ const About=()=>{
                     </div>
                 </div>
             </div>
-            {/* </div> */}
 
-
-=======
-
-const About = () => {
-
-    return(
-        <>
-        hello about
->>>>>>> 7d927940ffd050d0516548a40263150b38699d00
         </>
     );
 };
