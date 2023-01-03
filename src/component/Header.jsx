@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Header=()=>{
     return(
         <>
@@ -8,12 +7,12 @@ const Header=()=>{
         <div className="header">
             <div className="conatiner">
                 <nav>
-                    <Link to="index.html">
-                        <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/index.html"/>
+                    <Link to="/">
+                        <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/"/>
                     </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
-                        <i className="fa fa-times" onClick="closemenu()"></i>
+                        <i className="fa fa-times" onClick={closemenu}></i>
 
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
 
@@ -24,7 +23,7 @@ const Header=()=>{
                         <li><Link to="JoinUs.html">JOIN US</Link><span><b>+</b></span></li>
 
                     </ul>
-                    <i className="fa fa-bars" onClick="openmenu()"></i>
+                    <i className="fa fa-bars" onClick={openmenu}></i>
                 </nav>
             </div>
             {/* <div className="container-2">

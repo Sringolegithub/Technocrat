@@ -14,7 +14,6 @@ const About = () => {
                         <h1> TECHNOCRAT</h1>
                         <ul id="sidemenu">
                             <i className="fa fa-times" onclick="closemenu()"></i>
-
                             <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
                             <li><Link to="/Expertise">EXPERTISE</Link><span><b>+</b></span></li>
                             <li><Link to="/Solutions">SOLUTIONS</Link><span><b>+</b></span></li>
