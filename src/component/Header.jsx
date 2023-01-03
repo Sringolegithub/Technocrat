@@ -12,7 +12,7 @@ const Header=()=>{
                     </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
-                        <i className="fa fa-times" onclick="closemenu()"></i>
+                        <i className="fa fa-times" onClick="closemenu()"></i>
 
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
                         <li><Link to="/expertise">EXPERTISE</Link><span><b>+</b></span></li>
@@ -24,7 +24,7 @@ const Header=()=>{
                     <i className="fa fa-bars" onClick="openmenu()"></i>
                 </nav>
             </div>
-            <div className="container-2">
+            {/* <div className="container-2">
                 <div className="container-col-2">
                     <p>We make dreams career happen</p>
                     <p>We make great team happen</p>
@@ -32,7 +32,7 @@ const Header=()=>{
 
                 </div>
 
-            </div>
+            </div> */}
         </div>
 
         </>
