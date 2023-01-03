@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Header=()=>{
     return(
         <>
@@ -6,24 +7,24 @@ const Header=()=>{
         <div className="header">
             <div className="conatiner">
                 <nav>
-                    <a to="index.html">
-                        <img src="images/logo.jpg" width="70px" height="70px" to="/index.html"/>
-                    </a>
+                    <Link to="index.html">
+                        <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/index.html"/>
+                    </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
-                        <i className="fa fa-times" onclick="closemenu()"></i>
+                        <i className="fa fa-times" onClick="closemenu()"></i>
 
-                        <li><a to="About.html">ABOUT US </a><span><b>+</b></span></li>
-                        <li><a to="Eepertise.html">EXPERTISE</a><span><b>+</b></span></li>
-                        <li><a to="Solutions.html">SOLUTIONS</a><span><b>+</b></span></li>
-                        <li><a to="Thought-Center.html">THOUGHT CENTER</a><span><b>+</b></span></li>
-                        <li><a to="ContactUs.html">CONTACT US</a><span><b>+</b></span></li>
-                        <li><a to="JoinUs.html">JOIN US</a><span><b>+</b></span></li>
+                        <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
+                        <li><Link to="Eepertise.html">EXPERTISE</Link><span><b>+</b></span></li>
+                        <li><Link to="Solutions.html">SOLUTIONS</Link><span><b>+</b></span></li>
+                        <li><Link to="Thought-Center.html">THOUGHT CENTER</Link><span><b>+</b></span></li>
+                        <li><Link to="ContactUs.html">CONTACT US</Link><span><b>+</b></span></li>
+                        <li><Link to="JoinUs.html">JOIN US</Link><span><b>+</b></span></li>
                     </ul>
-                    <i className="fa fa-bars" onclick="openmenu()"></i>
+                    <i className="fa fa-bars" onClick="openmenu()"></i>
                 </nav>
             </div>
-            <div className="container-2">
+            {/* <div className="container-2">
                 <div className="container-col-2">
                     <p>We make dreams career happen</p>
                     <p>We make great team happen</p>
@@ -31,7 +32,7 @@ const Header=()=>{
 
                 </div>
 
-            </div>
+            </div> */}
         </div>
 
         </>
