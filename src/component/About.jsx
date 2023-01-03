@@ -1,12 +1,12 @@
 import React from "react";
 
+// import { Link } from "react-router-dom";
 const About = () => {
-
-    return(
+    return (
         <>
-        {/* <!-- ---------------header contain--------------- --> */}
-        <div className="header">
-                 {/* <div className="conatiner">
+            {/* <!-- ---------------header contain--------------- --> */}
+            <div className="header">
+                {/* <div className="conatiner">
                    <nav>
                         <Link to="/">
                             <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/Home" />
@@ -78,7 +78,7 @@ const About = () => {
                                 frоm оur соmрetitоrs by delivering tоugh соmрetitiоn
                                 аnd аn аffоrdаble аnd reliаble humаn exрerienсe <br />
 
-                                <b style={{color:" rgb(48, 126, 126);"}}>"We take pride in putting our clients first. We
+                                <b style={{ color: " rgb(48, 126, 126);" }}>"We take pride in putting our clients first. We
                                     recognize that they are what keeps our firm
                                     growing."</b> <br />
                                 We аlsо believe thаt “If you want tо sell sоmething tо а
@@ -244,7 +244,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+            {/* </div> */}
         </>
     );
 };
