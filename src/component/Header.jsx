@@ -20,7 +20,7 @@ const Header=()=>{
                         <li><Link to="/exepertise">EXPERTISE</Link><span><b>+</b></span></li>
                         <li><Link to="/solutions">SOLUTIONS</Link><span><b>+</b></span></li>
                         <li><Link to="/thought-Center">THOUGHT CENTER</Link><span><b>+</b></span></li>
-                        <li><Link to="/contactUs">CONTACT US</Link><span><b>+</b></span></li>
+                        <li><Link to="/contactus">CONTACT US</Link><span><b>+</b></span></li>
                         <li><Link to="/joinUs">JOIN US</Link><span><b>+</b></span></li>
                     </ul>
                     <i className="fa fa-bars" onClick={openmenu}></i>

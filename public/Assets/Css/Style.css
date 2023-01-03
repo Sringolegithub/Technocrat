@@ -166,7 +166,7 @@ nav ul li a {
 .column-1 {
     display: inline-flex;
     justify-content: space-between;
-    padding: 10px 5%;
+    padding: 10px 5px;
     width: 100%;
     box-sizing: border-box;
     margin-top: 20px;
@@ -386,13 +386,15 @@ nav ul li a {
 /* --------------about us--------------- */
 .column {
     display: flex;
-    padding: 10px 10px;
+       justify-content: space-between;
+    padding: 10px 40px 10px 40px;
     box-sizing: border-box;
 
 }
 
 .col-1 {
     margin: 10px 10px;
+    width: 15%;
 }
 
 .col-1 h2 {

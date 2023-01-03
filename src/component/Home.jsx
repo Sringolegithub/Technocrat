@@ -245,7 +245,7 @@ const Home = () => {
             </div>
                         
                         {/* <!-- //-------------footer contain--------------- --> */ }
-    <div className="footer ">
+    {/* <div className="footer ">
         <div className="container">
             <div className="row">
                 <div className="footer-col-1">
@@ -308,9 +308,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     {/* <!-- -//---------copyright-------------------- --> */ }
-    <div className="copyright">
+    {/* <div className="copyright">
         <div className="useful-links">
             <Link to="#">About</Link>
             <Link to="#">Accessibility</Link>
@@ -324,7 +324,7 @@ const Home = () => {
             <p>technocratconsulting &#169; 2021.All right reserved</p>
 
         </div>
-    </div>
+    </div> */}
                     </>
                     );
 };
