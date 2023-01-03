@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 // import { Link } from "react-router-dom";
 const About=()=>{
     return(
@@ -247,6 +248,14 @@ const About=()=>{
             {/* </div> */}
 
 
+=======
+
+const About = () => {
+
+    return(
+        <>
+        hello about
+>>>>>>> 7d927940ffd050d0516548a40263150b38699d00
         </>
     );
 };

@@ -9,11 +9,13 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <App />
+<<<<<<< HEAD
     </BrowserRouter>
+=======
+  </BrowserRouter>
+>>>>>>> 7d927940ffd050d0516548a40263150b38699d00
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 
