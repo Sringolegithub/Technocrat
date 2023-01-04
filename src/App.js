@@ -12,9 +12,8 @@ import ThoughtCenter from './component/Thought-Center';
 function App() {
   return (
     <>
-
       <Header />
-      
+
       <Switch>
         <Route path="/" exact component={Home}></Route>
         <Route path="/about" exact component={About}></Route>
@@ -22,10 +21,9 @@ function App() {
         <Route path="/contact" exact component={Contact}></Route>
         <Route path="/thought-Center" exact component={ThoughtCenter}></Route>
 
-        
       </Switch>
+      <Footer/>
 
-    <Footer/>
     </>
   );
 }

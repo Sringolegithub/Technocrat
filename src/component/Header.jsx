@@ -10,21 +10,23 @@ const Header=()=>{
         <div className="header">
             <div className="conatiner">
                 <nav>
-                    <Link to="/">
+                    <Link to="index.html">
                         <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/"/>
                     </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
-                        <i className="fa fa-times" onClick={closemenu}></i>
+                        <i className="fa fa-times" onClick="closemenu()"></i>
 
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
-                        <li><Link to="/exepertise">EXPERTISE</Link><span><b>+</b></span></li>
-                        <li><Link to="/solutions">SOLUTIONS</Link><span><b>+</b></span></li>
-                        <li><Link to="/thought-Center">THOUGHT CENTER</Link><span><b>+</b></span></li>
-                        <li><Link to="/contactus">CONTACT US</Link><span><b>+</b></span></li>
-                        <li><Link to="/joinUs">JOIN US</Link><span><b>+</b></span></li>
+
+                        <li><Link to="/expertise">EXPERTISE</Link><span><b>+</b></span></li>
+                        <li><Link to="Solutions.html">SOLUTIONS</Link><span><b>+</b></span></li>
+                        <li><Link to="Thought-Center.html">THOUGHT CENTER</Link><span><b>+</b></span></li>
+                        <li><Link to="ContactUs.html">CONTACT US</Link><span><b>+</b></span></li>
+                        <li><Link to="JoinUs.html">JOIN US</Link><span><b>+</b></span></li>
+
                     </ul>
-                    <i className="fa fa-bars" onClick={openmenu}></i>
+                    <i className="fa fa-bars" onClick="openmenu()"></i>
                 </nav>
             </div>
             {/* <div className="container-2">
