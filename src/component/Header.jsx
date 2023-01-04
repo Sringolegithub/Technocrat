@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { openmenu } from "../Events";
+import { closemenu } from "../Events";
+
 const Header=()=>{
     return(
         <>

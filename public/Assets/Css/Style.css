@@ -166,11 +166,10 @@ nav ul li a {
 .column-1 {
     display: inline-flex;
     justify-content: space-between;
-    padding: 10px 5%;
+    padding: 10px 5px;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 10px 5px 10px 8px;
 }
 
 .column-1 img {
@@ -257,6 +256,7 @@ nav ul li a {
 
 .row-col-2 {
     justify-content: space-evenly;
+    /* width: 90%; */
 }
 
 
@@ -386,13 +386,15 @@ nav ul li a {
 /* --------------about us--------------- */
 .column {
     display: flex;
-    padding: 10px 10px;
+       justify-content: space-between;
+    padding: 10px 40px 10px 40px;
     box-sizing: border-box;
 
 }
 
 .col-1 {
     margin: 10px 10px;
+    width: 15%;
 }
 
 .col-1 h2 {
@@ -495,6 +497,7 @@ width:100%;
     font-size: 14px;
     padding: 20px 20px 20px 20px;
     box-sizing: border-box;
+    margin-top: 8%;
 }
 
 .footer a {
