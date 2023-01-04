@@ -1,7 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 const Contact = () => {
+    const URL=" ";
+    const [data,setData]=useState({
+        name:" ",
+        email:" ",
+        subject:" ",
+        message:" "
+
+    })
+    function submit(e){
+        e.preventDefault();
+
+    }
+    function handle(e){
+        const newdata={...data}
+        newdata[e.target.id]=e.target.value
+        setData(newdata)
+        console.log(newdata);
+    }
 
     return (
         <>
@@ -69,15 +87,15 @@ const Contact = () => {
                     </div>
                     <div className="contact-col">
                         <form className="comment-formc">
-                            <input type="text" placeholder="Enter Your Name" required />
+                            <input type="text" id="name" placeholder="Enter Your Name"  value={data.name} onChange={(e)=>handle(e)} required />
                             <input type="email" placeholder="Enter Your Email" required />
                             <input type="text" placeholder="Enter Your subject" required />
                             <textarea rows="5" placeholder="Massage"></textarea>
-                            <button type="submit" className="hero-btn">send massage</button>
+                            <button type="submit" className="hero-btn" onClick={(e)=>submit(e)}>send massage</button>
                         </form>
                     </div>
 
-                </div>
+                </div>qqqqqqqqqqqqqqqq
 
             </section>
 
