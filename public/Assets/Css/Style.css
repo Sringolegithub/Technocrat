@@ -110,7 +110,7 @@ nav ul li a {
     height: 600px;
     box-sizing: border-box;
     /* background-image: linear-gradient(rgba(80, 200, 209, 0.7), rgba(80, 200, 209, 0.7)),; */
-    background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(images/bg2.jpg);
+    background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(/Assets/images/bg2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;

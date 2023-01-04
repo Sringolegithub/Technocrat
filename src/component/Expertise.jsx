@@ -26,7 +26,7 @@ const Expertise = () => {
             </nav>
         </div> */}
         <div className="container-3">
-            <h1>WMaking futute-ready talent happen</h1>
+            <h1>We Making futute-ready talent happen</h1>
         </div>
     </div>
     {/* <!-- ---------main contain---------------- --> */}
