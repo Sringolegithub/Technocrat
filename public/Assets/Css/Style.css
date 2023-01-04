@@ -2,12 +2,10 @@
     padding: 0;
     margin: 0;
     height: auto;
-    /* background-color:rgb(93, 250, 164); */
-    /* width: 100%; */
 }
 
 .Root {
-    padding: 0px;
+    padding: 0;
     background-color: rgb(252, 252, 251);
 }
 
@@ -18,7 +16,7 @@
     background-size: cover;
     background-position: center;
     background-color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     overflow: hidden;
 
 }
@@ -27,7 +25,7 @@
     width: 100%;
     box-sizing: border-box;
     background-color: #fff;
-    padding: 10px 5%;
+    padding: 1% 5%;
     position: fixed;
     overflow: hidden;
     z-index: 1;
@@ -38,8 +36,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: fixed;
-    width: 100%; */
     height: 80px;
     padding: 10px 5%;
 }
@@ -56,7 +52,7 @@ nav h1 {
 /* ---------------------css navbar for menu--------------------- */
 nav .fa {
     display: block;
-    font-size: 25px;
+    font-size: 1.6rem;
     float: right;
     color: rgb(37, 196, 196);
 }
@@ -65,10 +61,10 @@ nav ul {
     background: #747272;
     position: fixed;
     top: 0;
-    right: -250px;
+    right: -16rem;
     height: 100vh;
-    width: 200px;
-    padding-top: 50px;
+    width: 15.625rem;
+    padding-top: 3.05rem;
     z-index: 2;
     transition: right 0.5s;
     overflow: hidden;
@@ -76,7 +72,7 @@ nav ul {
 
 nav ul li {
     display: block;
-    margin: 25px;
+    margin: 1.6rem;
 }
 
 nav ul li span {
@@ -85,31 +81,26 @@ nav ul li span {
 }
 
 nav ul .fa {
-    /* position: absolute; */
-    /* top: 10px; */
-    left: 25px;
+    left: 1.6rem;
     cursor: pointer;
     color: rgb(37, 196, 196);
     float: right;
-    /* bottom: 20px; */
-    margin-top: 2px;
+    margin-top: 0.125rem;
 
 }
 
 nav ul li a {
     color: rgb(238, 231, 231);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* ----------------end navbar------------------- */
 .container-2 {
-    /* background-color: rgb(52, 112, 223); */
     width: 100%;
-    padding: 10px;
-    height: 600px;
+    padding: 0.625rem;
+    height: 37.5rem;
     box-sizing: border-box;
-    /* background-image: linear-gradient(rgba(80, 200, 209, 0.7), rgba(80, 200, 209, 0.7)),; */
     background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(/Assets/images/bg2.jpg);
     background-position: center;
     background-size: cover;
@@ -123,7 +114,7 @@ nav ul li a {
 }
 
 .container-2 .container-col-2 {
-    margin-top: 300px;
+    margin-top: 18.75rem;
     /* margin-bottom: 20px; */
     color: black;
 }
@@ -131,8 +122,8 @@ nav ul li a {
 .container-col-2 {
     text-align: center;
     color: black;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    margin-top: 4.375rem;
+    margin-bottom: 1.25rem;
     /* float: left; */
 }
 
@@ -157,56 +148,55 @@ nav ul li a {
 }
 
 .row-2 {
-    /* display: flex; */
-    /* background:rgb(52, 112, 223) ; */
-    height: 500px;
+
+    height: 31.25rem;
     width: 100%;
 }
 
 .column-1 {
     display: inline-flex;
     justify-content: space-between;
-    padding: 10px 5px;
+    padding: 0.625rem 0.3125rem;
     width: 100%;
     box-sizing: border-box;
-    margin: 10px 5px 10px 8px;
+    margin: 0.625rem 0.3125rem 0.625rem 0.5rem;
 }
 
 .column-1 img {
     /* display: gr; */
-    width: 350px;
-    height: 300px;
+    width: 31rem;
+    height: 18.75rem;
     float: left;
 }
 
 .column-2 {
     width: 100%;
     display: flex;
-    padding: 10px 10%;
-    flex-basis: 30px;
+    padding: 0.625rem 10%;
+    flex-basis: 1.875rem;
     justify-content: space-between;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
 }
 
 .column-2 div {
     display: inline-block;
-    flex-basis: 5px;
+    flex-basis: 0.3125rem;
     justify-content: space-between;
-    padding: 10px 5%;
+    padding: 0.625rem 5%;
     box-sizing: border-box;
 }
 
 .column-2 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: rgb(125, 228, 228);
 }
 
 .column-2 b {
     color: rgb(64, 79, 109);
-    font-size: 15px;
+    font-size: 0.9375rem;
 
 }
 
@@ -214,19 +204,19 @@ nav ul li a {
 .row-2 {
     background-color: #f0f2f5;
     height: auto;
-    margin-bottom: 10px;
-    padding: 30px 10px;
+    margin-bottom: 0.625rem;
+    padding: 1.875rem 0.625rem;
     width: 100%;
     box-sizing: border-box;
 }
 
 .row-2 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .para {
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
 
@@ -235,44 +225,30 @@ nav ul li a {
 .row-4 {
     background-color: #fff;
     text-align: center;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 
 }
 
 /* ---------css for slider------------  */
 .row-col-1 {
-    max-width: 1080px;
-    margin: 20px;
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
-    /* overflow: hidden; */
+    max-width: 67.5rem;
+    margin: 1.25rem;
     width: auto;
-
-    height: 100px;
+    height: 6.25rem;
     position: relative;
-    /* border: 4px solid #eb1c49; */
     overflow: hidden;
 }
 
 .row-col-2 {
     justify-content: space-evenly;
-    /* width: 90%; */
+
 }
 
 
 
 /* ---------brands--------- */
 .row-col-1 .row-col-2 {
-    /* display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-    overflow: hidden;
-    font-weight: bold;
-    color: #fbfbfb;
-    animation-name: rightToLeft;
-    animation-duration: 10.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; */
+    
     animation: scroll 30s linear infinite;
     display: flex;
     width: calc(350px * 6);
@@ -300,7 +276,6 @@ nav ul li a {
 }
 
 .col-5 img {
-    /* display: inline; */
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
@@ -407,9 +382,7 @@ nav ul li a {
 }
 
 .col-3 {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 20px; */
+  
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -461,7 +434,6 @@ width:100%;
     padding: 10px;
     height: 600px;
     box-sizing: border-box;
-    /* background-image: linear-gradient(rgba(80, 200, 209, 0.7), rgba(80, 200, 209, 0.7)), url(images/bg2.jpg); */
     background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(/Assets/images/bg2.jpg);
     background-position: center;
     background-size: cover;
@@ -491,7 +463,6 @@ width:100%;
 
 /* --------------footer--------------- */
 .footer {
-    /* background: rgba(80, 108, 209, 0.7); */
     background-color: rgb(217, 229, 235);
     color: #8a8a8a;
     font-size: 14px;
@@ -499,6 +470,10 @@ width:100%;
     box-sizing: border-box;
     margin-top: 8%;
 }
+
+/* .footer .container div{
+    display: flex;
+} */
 
 .footer a {
     text-decoration: none;

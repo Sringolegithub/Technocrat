@@ -7,6 +7,13 @@
     };
     
     export function closemenu() {
-      sm.style.right = "-200px";
+      if(sm!=null)
+      {
+        sm.style.right = "-240px";
+      }
     };
+
+
+   
+   
   

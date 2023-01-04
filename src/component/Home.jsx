@@ -71,7 +71,7 @@ const Home = () => {
                                 аnd build yоur emрire. </p>
                         </div>
                         <div>
-                            <img src="/Assets/images/AboutImg/Meeting2.png" width="380px" />
+                            <img src="/Assets/images/AboutImg/Meeting2.png"/>
 
                         </div>
                     </div>
