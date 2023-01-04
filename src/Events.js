@@ -3,7 +3,7 @@
     var sm = document.getElementById("sidemenu");
 
     export function openmenu() {
-      sm.style.right = "0";
+      sm.style.right = 0;
     };
     
     export function closemenu() {

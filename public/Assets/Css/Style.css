@@ -495,7 +495,7 @@ width:100%;
     background-color: rgb(217, 229, 235);
     color: #8a8a8a;
     font-size: 14px;
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 20px 20px 20px; */
     box-sizing: border-box;
     margin-top: 8%;
 }
@@ -518,9 +518,10 @@ width:100%;
 }
 
 .footer .row {
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
+
 
 .links {
     font-size: 60px;
