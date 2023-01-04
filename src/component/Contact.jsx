@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 
 const Contact = () => {
+        const APIENDPOINT = "https://jsonplaceholder.typicode.com/posts";
+        const [data, setData] = useState([]);
+        
 
     return (
         <>
@@ -73,7 +76,7 @@ const Contact = () => {
                             <input type="email" placeholder="Enter Your Email" required />
                             <input type="text" placeholder="Enter Your subject" required />
                             <textarea rows="5" placeholder="Massage"></textarea>
-                            <button type="submit" className="hero-btn">send massage</button>
+                            <button type="submit" className="hero-btn" >send massage</button>
                         </form>
                     </div>
 
