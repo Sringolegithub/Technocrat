@@ -471,6 +471,10 @@ width:100%;
     margin-top: 8%;
 }
 
+/* .footer .container div{
+    display: flex;
+} */
+
 .footer a {
     text-decoration: none;
     font-size: 15px;

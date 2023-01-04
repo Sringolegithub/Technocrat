@@ -1,9 +1,36 @@
+// import React from "react";
 import React, { useState } from "react";
-
+import Axios from 'axios';
 
 const Contact = () => {
         const APIENDPOINT = "https://jsonplaceholder.typicode.com/posts";
-        const [data, setData] = useState([]);
+        const [data, setData] = useState({
+            name:"",
+            email:"",
+            subject:"",
+            text:"",
+        });
+
+        function submit(e) {
+            e.preventDefault();
+            Axios.post(APIENDPOINT,{
+                name:data.name,
+                email:data.email,
+                subject:data.subject,
+                text:data.text,
+            }).then(
+                res=>{
+                    console.log(res.data)
+                }
+            )
+        }
+
+        function handle(e) {
+            const newdata = {...data}
+            newdata[e.target.id] = e.target.value
+            setData(newdata)
+            console.log(newdata);
+        }
         
 
     return (
@@ -71,12 +98,12 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="contact-col">
-                        <form className="comment-formc">
-                            <input type="text" placeholder="Enter Your Name" required />
-                            <input type="email" placeholder="Enter Your Email" required />
-                            <input type="text" placeholder="Enter Your subject" required />
-                            <textarea rows="5" placeholder="Massage"></textarea>
-                            <button type="submit" className="hero-btn" >send massage</button>
+                        <form className="comment-formc" >
+                            <input id="name" type="text" placeholder="Enter Your Name" required value={data.name} onChange={(e)=>handle(e)}/>
+                            <input id="email" type="email" placeholder="Enter Your Email" required value={data.email} onChange={(e)=>handle(e)}/>
+                            <input id="subject" type="text" placeholder="Enter Your subject" required value={data.subject} onChange={(e)=>handle(e)}/>
+                            <textarea id="text" rows="5" placeholder="Massage" value={data.text} onChange={(e)=>handle(e)}></textarea>
+                            <button type="submit" className="hero-btn" onClick={(e)=>submit(e)}> Submit </button>
                         </form>
                     </div>
 

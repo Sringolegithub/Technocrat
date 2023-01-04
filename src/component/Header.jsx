@@ -20,10 +20,9 @@ const Header=()=>{
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
 
                         <li><Link to="/expertise">EXPERTISE</Link><span><b>+</b></span></li>
-                        <li><Link to="Solutions.html">SOLUTIONS</Link><span><b>+</b></span></li>
-                        <li><Link to="Thought-Center.html">THOUGHT CENTER</Link><span><b>+</b></span></li>
-                        <li><Link to="ContactUs.html">CONTACT US</Link><span><b>+</b></span></li>
-                        <li><Link to="JoinUs.html">JOIN US</Link><span><b>+</b></span></li>
+                        <li><Link to="/solutions">SOLUTIONS</Link><span><b>+</b></span></li>
+                        <li><Link to="/tontactUs">CONTACT US</Link><span><b>+</b></span></li>
+                        <li><Link to="/joinUs">JOIN US</Link><span><b>+</b></span></li>
 
                     </ul>
                     <i className="fa fa-bars" onClick="openmenu()"></i>
