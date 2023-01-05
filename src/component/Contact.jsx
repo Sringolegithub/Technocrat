@@ -95,7 +95,7 @@ const Contact = () => {
                         </form>
                     </div>
 
-                </div>qqqqqqqqqqqqqqqq
+                </div>
 
             </section>
 
