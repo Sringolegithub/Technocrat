@@ -9,6 +9,8 @@ import Contact from './component/Contact';
 import Footer from './component/Footer';
 import ThoughtCenter from './component/Thought-Center';
 import ContactForm from './component/ContactForm';
+import JoinUs from './component/JoinUs';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route path="/contact" exact component={Contact}></Route>
         {/* <Route path="/contactform" exact component={ContactForm}></Route> */}
         <Route path="/thought-Center" exact component={ThoughtCenter}></Route>
+        <Route path="/joinus" exact component={JoinUs}></Route>
 
       </Switch>
       <Footer/>

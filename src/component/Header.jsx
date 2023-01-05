@@ -15,7 +15,7 @@ const Header=()=>{
                     </Link>
                     <h1> TECHNOCRAT</h1>
                     <ul id="sidemenu">
-                        <i className="fa fa-times" onClick="closemenu()"></i>
+                        <i className="fa fa-times" onClick={closemenu}></i>
 
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
 
@@ -25,7 +25,7 @@ const Header=()=>{
                         <li><Link to="/joinUs">JOIN US</Link><span><b>+</b></span></li>
 
                     </ul>
-                    <i className="fa fa-bars" onClick="openmenu()"></i>
+                    <i className="fa fa-bars" onClick={openmenu}></i>
                 </nav>
             </div>
             {/* <div className="container-2">
