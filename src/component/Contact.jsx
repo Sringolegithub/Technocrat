@@ -87,7 +87,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-col">
                         <form className="comment-formc">
-                            <input type="text" id="name" placeholder="Enter Your Name"  value={data.name} onChange={(e)=>handle(e)} required />
+                            <input type="text" id="name" placeholder="Enter Your Name" value={data.name} onChange={(e)=>handle(e)} required />
                             <input type="email" placeholder="Enter Your Email" required />
                             <input type="text" placeholder="Enter Your subject" required />
                             <textarea rows="5" placeholder="Massage"></textarea>

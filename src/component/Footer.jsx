@@ -8,7 +8,7 @@ const Footer = () => {
         <>
             {/* <!-- -------------footer contain-----------------> */}
             <div className="footer ">
-                <div className="container">
+                <div className="container-f">
                     <div className="row">
                         <div className="footer-col-1">
                             <h2>TEСHNОCRАT CONSULTING </h2>

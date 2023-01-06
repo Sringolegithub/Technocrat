@@ -226,12 +226,14 @@ nav ul li a {
     background-color: #fff;
     text-align: center;
     margin: 1.25rem auto;
+    box-sizing: border-box;
+    width: 100%;
 
 }
 
 /* ---------css for slider------------  */
 .row-col-1 {
-    max-width: 67.5rem;
+    /* max-width: 67.5rem; */
     margin: 1.25rem;
     width: auto;
     height: 6.25rem;
@@ -239,10 +241,12 @@ nav ul li a {
     overflow: hidden;
 }
 
-.row-col-2 {
+/* .row-col-2 {
     justify-content: space-evenly;
+    width: 100%;
 
-}
+
+} */
 
 
 
@@ -251,7 +255,7 @@ nav ul li a {
     
     animation: scroll 30s linear infinite;
     display: flex;
-    width: calc(350px * 6);
+    width: calc(278px * 6);
 }
 
 .row-col-1 .col-5 {
@@ -462,53 +466,80 @@ width:100%;
 
 
 /* --------------footer--------------- */
-.footer {
-    background-color: rgb(217, 229, 235);
+/* .footer { */
+    /* background-color: rgb(217, 229, 235);
+    height: auto;
     color: #8a8a8a;
-    font-size: 14px;
+    font-size: 14px; */
     /* padding: 20px 20px 20px 20px; */
-    box-sizing: border-box;
-    margin-top: 8%;
-}
+    /* box-sizing: border-box;
+    margin-top: 8%; */
+/* } */
 
-/* .footer .container div{
+ /* .row div{
     display: flex;
+    /* justify-content: space-between; 
+} */
+/* .conatiner-f{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+} */
+/* .footer a {
+    text-decoration: none;
+    font-size: 0.9375rem;
 } */
 
-.footer a {
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.footer-col-1 {
+/* .footer-col-1 {
     color: black;
-}
+} */
 
-.footer-col-1 h2{
+/* .footer-col-1 h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .social-icon .fa {
     color: rgb(5, 9, 243);
-}
+} */
 
-.footer .row {
+/* .footer .row {
     display:flex;
-    justify-content: space-between;
-}
+    /* justify-content: space-between; 
+} */
+/* .row div{
+    display:flex;
+    width: 20%;
+    /* justify-content: space-between; 
+} */
 
 
-.links {
+/* .links {
     font-size: 60px;
     font-weight: 700;
     color: black;
-}
+} */
 
-.footer ul li {
+/* .footer ul li {
     text-decoration: none;
     list-style-type: none;
 
+} */
+.footer{
+    background-color: rgb(217, 229, 235);
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+
 }
+.row{
+    display: grid;
+    /* justify-content: space-between; */
+}
+.footer-col-1 {
+    width: 15%;
+}
+
 
 
 /* ----------copyright section---------- */
@@ -547,6 +578,7 @@ width:100%;
 }
 .row {
     display: flex;
+    justify-content: space-between;
 }
 .contact-col{
 	flex-basis: 48%;

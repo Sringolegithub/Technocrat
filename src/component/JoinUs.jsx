@@ -1,8 +1,19 @@
 import React from "react";
-
+import {useState} from "react";
+// import JoinUsForm from "./JoinUsForm";
+// import axios from "axios";
 
 const JoinUs = () => {
 
+    
+    // const joinusform=()=>{
+    //     if(){
+
+    //     }
+        
+    // }
+
+   
     return (
 
         <>
@@ -21,8 +32,9 @@ const JoinUs = () => {
             <div >
                 <div >
                     <a className=""
-                        href="../join-us-form/index.html">
-                        <span className="">Join us</span>
+                        href="../joinusform/index.html">
+                        {/* <span className=" " onClick={joinusform}>Join us</span> */}
+                        {/* <button onClick={joinusform}>Join Us</button> */}
                     </a>
                 </div>
             </div>

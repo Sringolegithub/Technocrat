@@ -1,8 +1,13 @@
 import React from "react";
+// import JoinUs from "./JoinUs";
 
 const JoinUsForm = () => {
+    // const logout = ()=>{
+    //     localStorage.clear();
+    //     window.location.reload();
+    // }
 
-    return(
+        return(
 
         <>
             <div className="row">
@@ -54,6 +59,8 @@ const JoinUsForm = () => {
         <input className="form-control form-control-lg" id="formFileLg" type="file" width="50%" /><br/>
 
         <button type="submit" className="hero-btn " >Submit</button>
+        <button onClick={logout}>cancle</button>
+        
 
     </div>      
         </>

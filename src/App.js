@@ -8,8 +8,9 @@ import Expertise from './component/Expertise';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 import ThoughtCenter from './component/Thought-Center';
-import ContactForm from './component/ContactForm';
+// import ContactForm from './component/ContactForm';
 import JoinUs from './component/JoinUs';
+// import JoinUsForm from './component/JoinUsForm';
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
 
       </Switch>
       <Footer/>
+            
+      {/* {
+      localStorage.token ? <JoinUsForm/> :<JoinUs/>
+      } */}
 
     </>
   );
