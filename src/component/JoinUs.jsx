@@ -1,4 +1,5 @@
 import React from "react";
+import JoinUsForm from './JoinUsForm';
 
 
 const JoinUs = () => {
@@ -20,10 +21,9 @@ const JoinUs = () => {
             </div>
             <div >
                 <div >
-                    <a className="joinusform"
-                        href="/component/JoinUsForm">
-                        <span className="">Join us</span>
-                    </a>
+                    <a className="joinusform">
+                        <button className="hero-btn" id="btnf">Join us</button>
+          hero-btn           </a>
                 </div>
             </div>
 
