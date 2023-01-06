@@ -20,8 +20,8 @@ const JoinUs = () => {
             </div>
             <div >
                 <div >
-                    <a className=""
-                        href="../join-us-form/index.html">
+                    <a className="joinusform"
+                        href="/component/JoinUsForm">
                         <span className="">Join us</span>
                     </a>
                 </div>
