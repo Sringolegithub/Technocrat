@@ -3,13 +3,16 @@
     var sm = document.getElementById("sidemenu");
 
     export function openmenu() {
-      sm.style.right = 0;
+     if(sm!="")
+     {
+      sm.style.right = "1px";
+     }
     };
     
     export function closemenu() {
       if(sm!=null)
       {
-        sm.style.right = "-240px";
+        sm.style.right = "-200px";
       }
     };
 
