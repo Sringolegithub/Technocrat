@@ -54,7 +54,7 @@ nav .fa {
     display: block;
     font-size: 1.6rem;
     float: right;
-    color: rgb(37, 196, 196);
+    color: rgb(143, 31, 31);
     
 }
 
@@ -82,11 +82,13 @@ nav ul li span {
 }
 
 nav ul .fa {
-    left: 1.6rem;
+    /* left: 1.6rem;  */
     cursor: pointer;
-    color: rgb(37, 196, 196);
-    float: right;
-    margin-top: 0.125rem;
+    color: #fff;
+    position: absolute;
+    /* top: right; */
+    top: 24px;
+    right: 23px;
 
 }
 

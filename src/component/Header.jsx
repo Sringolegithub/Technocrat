@@ -4,7 +4,7 @@ import { Openmenu } from "../Events";
 import { Closemenu } from "../Events";
 
 const Header=()=>{
-    const  [style,setstyle] = useState({}); 
+    const  [style,setstyle] = useState({display:"none"}); 
     const closeMenu = ()=>{
         setstyle({display:"none"});
     }
