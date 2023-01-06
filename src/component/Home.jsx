@@ -181,8 +181,8 @@ const Home = () => {
                             <div className="col-5">
                                 <img src="/Assets/images/Partners Logo/HSM Edifice logo.jpg" />
                             </div>
-                        </div>
-                        <div className="row-col-2">
+                        {/* </div>
+                        <div className="row-col-2"> */}
                             <div className="col-5">
                                 <img src="/Assets/images/Partners Logo/KloudRAC logo.png" />
                             </div>

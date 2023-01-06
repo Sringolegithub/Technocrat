@@ -31,10 +31,9 @@ const JoinUs = () => {
             </div>
             <div >
                 <div >
-                    <a className=""
-                        href="../joinusform/index.html">
-                        {/* <span className=" " onClick={joinusform}>Join us</span> */}
-                        {/* <button onClick={joinusform}>Join Us</button> */}
+                    <a className="joinusform"
+                        href="/component/JoinUsForm">
+                        <span className="">Join us</span>
                     </a>
                 </div>
             </div>

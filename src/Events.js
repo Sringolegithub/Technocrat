@@ -1,15 +1,15 @@
-//  <!-- ----------js for menu---------------- -->
+//  <!-- ----------js for menu Icon---------------- -->
   
     var sm = document.getElementById("sidemenu");
 
-    export function openmenu() {
+    export function Openmenu() {
      if(sm!="")
      {
       sm.style.right = "1px";
      }
     };
     
-    export function closemenu() {
+    export function Closemenu() {
       if(sm!=null)
       {
         sm.style.right = "-200px";
