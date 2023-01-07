@@ -59,7 +59,6 @@ const JoinUsForm = (props) => {
                 </form>
             </div >
 
-            {/* <button onClick={logout}>cancle</button> */}
         </>
     );
 };

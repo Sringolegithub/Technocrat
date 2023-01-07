@@ -2,6 +2,8 @@ import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import { Openmenu } from "../Events";
 import { Closemenu } from "../Events";
+import { Modal, Button } from 'react-bootstrap'
+
 
 const Header=()=>{
     const  [style,setstyle] = useState({display:"none"}); 
@@ -19,7 +21,7 @@ const Header=()=>{
         <div className="header">
             <div className="conatiner">
                 <nav>
-                    <Link to="index.html">
+                    <Link to="/">
                         <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/"/>
                     </Link>
                     <h1> TECHNOCRAT</h1>
@@ -39,6 +41,14 @@ const Header=()=>{
                 </nav>
             </div>
         </div>
+        {/* {style ? <Modal style={style} onHide={closeMenu} size={"lg"}>
+        <Modal.Header closeButton>
+                    <Modal.Title>Join US</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Header closeMenu={closeMenu}/>
+                </Modal.Body>
+            </Modal> : ""} */}
 
         </>
     );
