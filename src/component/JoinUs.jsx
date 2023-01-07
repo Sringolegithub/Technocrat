@@ -1,19 +1,16 @@
 import React from "react";
-import {useState} from "react";
+import { useState } from "react";
 // import JoinUsForm from "./JoinUsForm";
 // import axios from "axios";
-
+import { Modal, Button } from 'react-bootstrap'
+import JoinUsForm from "./JoinUsForm";
 const JoinUs = () => {
 
-    
-    // const joinusform=()=>{
-    //     if(){
+    const [show, setshow] = useState(false);
 
-    //     }
-        
-    // }
-
-   
+    const handleClose = () => {
+        setshow(false);
+    }
     return (
 
         <>
@@ -32,8 +29,7 @@ const JoinUs = () => {
             <div >
                 <div >
                     <a className="joinusform">
-                        <button className="hero-btn" id="btnf">Join us</button>
-          hero-btn           </a>
+                        <button className="btn btn-primary hero-btn" id="btnf" onClick={() => setshow(true)}>Join us</button></a>
                 </div>
             </div>
 
@@ -229,6 +225,14 @@ const JoinUs = () => {
                     </div>
                 </div>
             </div>
+            {show ? <Modal show={show} onHide={handleClose} size={"lg"}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Join US</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <JoinUsForm handleClose={handleClose}/>
+                </Modal.Body>
+            </Modal> : ""}
         </>
     );
 

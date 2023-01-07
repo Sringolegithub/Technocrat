@@ -491,7 +491,7 @@ width:100%;
     height: auto;
     color: #8a8a8a;
     font-size: 0.875rem;
-    /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
     box-sizing: border-box;
     margin-top: 8%;
     width: 100%;
@@ -519,9 +519,16 @@ width:100%;
 .footer-col-1 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.social-icon a{
+    display: flex;
+    justify-content: space-between;
+}
 
 .social-icon .fa {
-    color: rgb(5, 9, 243);
+    /* display: flex; */
+    color: rgb(245, 47, 47);
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer .row-f {

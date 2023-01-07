@@ -1,68 +1,65 @@
 import React from "react";
 // import JoinUs from "./JoinUs";
 
-const JoinUsForm = () => {
-    // const logout = ()=>{
-    //     localStorage.clear();
-    //     window.location.reload();
-    // }
+const JoinUsForm = (props) => {
 
-        return(
+    const save = (e) => {
+        e.preventDefault();
+        props.handleClose();
+    }
+    return (
 
         <>
-            <div className="row">
-        <div className="contact-col">
-            <form className="comment-formc">
-                <input type="text" placeholder="Enter Your  Name" required/>
-                <input type="email" placeholder="Enter Your Email" required/>
-                <input type="text" placeholder="Enter Your Address" required/>
-                <input type="date" placeholder="Enter Your DOB" required/>
-                <input type="text" placeholder="Enter Your Heighest Qualification" required/>
-                <input type="number" min="0" max="100" placeholder="Enter Your CGPA/Percentage" required/>
-                <fieldset className="form-group">
-                    <div className="row">
-                        <legend className="col-form-label col-sm-2 pt-0">Gender</legend>
-                        <div className="col-sm-10">
-                            <div className="form-check">
-                                <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                    value="option1" checked/>
-                                <label className="form-check-label" for="gridRadios1">
-                                    Female
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                    value="option2"/>
-                                <label className="form-check-label" for="gridRadios2">
-                                    male
-                                </label>
-                            </div>
+
+            <div className="contact-col">
+                <form className="" onSubmit={save}>
+                    <div className="col">
+                        <input className="form-control m-1" type="text" placeholder="Enter Your  Name" required />
+                        <input className="form-control m-1" type="email" placeholder="Enter Your Email" required />
+                        <input className="form-control m-1" type="text" placeholder="Enter Your Address" required />
+                    </div>
+                    <div className="col">
+                        <input className="form-control m-1" type="date" placeholder="Enter Your DOB" required />
+                        <input className="form-control m-1" type="text" placeholder="Enter Your Heighest Qualification" required />
+                        <input className="form-control m-1" type="number" min="0" max="100" placeholder="Enter Your CGPA/Percentage" required />
+                    </div>
+                    <div className="col">
+                        <input className="form-control m-1" type="number" placeholder="year of passing" required />
+                        <input className="form-control m-1" type="text" placeholder="Specialisation" required />
+                        <input className="form-control m-1" type="text" placeholder="current location" required />
+                    </div>
+                    <div className="col">
+                        <input className="form-control m-1" type="text" placeholder="preferred location" required />
+                        <input className="form-control m-1" type="text" placeholder="collage name" required />
+                        <input className="form-control m-1" type="tel" placeholder="phone number" required />
+                    </div>
+                    <div className="row m-1">
+                        <div class="col-sm-4">
+                            <label for="staticEmail2" class="visually-hidden">Email</label>
+                            <input type="number" class="form-control" id="staticEmail2" placeholder="Enter CGPA" />
+                        </div>
+                        
+                        <div className="col-sm-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="inputPassword2" class="visually-hidden">Password</label>
+                            <input type="file" class="form-control" id="inputGroupFile01" />
                         </div>
                     </div>
-                </fieldset>
+                <div style={{float:"right"}}>
+                    <button type="" onClick={props.handleClose} className="form-control btn btn-secondary btn-md w-100 mx-3" >close</button>
+                    <button type="submit" className="form-control btn btn-primary btn-md m-2 w-100" >Submit</button>
+                </div>
+                </form>
+            </div >
 
-            </form>
-        </div>
-        <div className="contact-col">
-
-            <form className="comment-formc">
-                <input type="number" placeholder="year of passing" required/>
-                <input type="text" placeholder="Specialisation" required/>
-                <input type="text" placeholder="current location" required/>
-                <input type="text" placeholder="preferred location" required/>
-                <input type="text" placeholder="collage name" required/>
-                <input type="tel" placeholder="phone number" required/>
-                <input type="number" min="0" max="100" placeholder="Enter Your CGPA/Percentage" required/>
-            </form>
-        </div>
-        <label for="formFileLg" className="form-label "><b>Uplode resume</b></label>
-        <input className="form-control form-control-lg" id="formFileLg" type="file" width="50%" /><br/>
-
-        <button type="submit" className="hero-btn " >Submit</button>
-        <button onClick={logout}>cancle</button>
-        
-
-    </div>      
+            {/* <button onClick={logout}>cancle</button> */}
         </>
     );
 };

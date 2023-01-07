@@ -2,49 +2,55 @@ import React, { useState } from "react";
 
 
 const Contact = () => {
-    const URL=" ";
-    const [data,setData]=useState({
-        name:" ",
-        email:" ",
-        subject:" ",
-        message:" "
+    // const URL=" ";
+    // const [data,setData]=useState({
+    //     name:" ",
+    //     email:" ",
+    //     subject:" ",
+    //     message:" "
+    // })
 
-    })
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+
+
     function submit(e){
         e.preventDefault();
+        const userdata ={};
+        userdata.name = name;
+        userdata.email = email;
+        userdata.subject = subject;
+        userdata.message = message;
+        console.log(userdata);   
+    }
 
-    }
-    function handle(e){
-        const newdata={...data}
-        newdata[e.target.id]=e.target.value
-        setData(newdata)
-        console.log(newdata);
-    }
+    function handleName(e){
+        // console.log(e.target.value);
+        setName(e.target.value);
+        };
+    
+    function handleEmail(e){
+        setEmail(e.target.value);
+        };
+
+        
+    function handleSubject(e){
+        setSubject(e.target.value);
+        };
+
+        
+    function handleMessage(e){
+        setMessage(e.target.value);
+        };
 
     return (
         <>
 
             {/* <!-- ---------------header contain--------------- --> */}
             <div className="header">
-                {/* <div className="conatiner">
-            <nav>
-                <a to="index.html">
-                    <img src="images/logo.jpg" width="70px" height="70px" to="/index.html"/>
-                </a>
-                <h1> TECHNOCRAT</h1>
-                <ul id="sidemenu">
-                    <i className="fa fa-times" onclick="closemenu()"></i>
-
-                    <li><a to="About.html">ABOUT US </a><span><b>+</b></span></li>
-                    <li><a to="Expertise.html">EXPERTISE</a><span><b>+</b></span></li>
-                    <li><a to="Solutions.html">SOLUTIONS</a><span><b>+</b></span></li>
-                    <li><a to="Thought-Center.html">THOUGHT CENTER</a><span><b>+</b></span></li>
-                    <li><a to="ContactUs.html">CONTACT US</a><span><b>+</b></span></li>
-                    <li><a to="JoinUs.html">JOIN US</a><span><b>+</b></span></li>
-                </ul>
-                <i className="fa fa-bars" onclick="openmenu()"></i>
-            </nav>
-        </div> */}
+               
                 <div className="container-3">
                     <h1>Making talent conversation happen</h1>
                 </div>
@@ -85,13 +91,13 @@ const Contact = () => {
 
                         </div>
                     </div>
-                    <div className="contact-col">
-                        <form className="comment-formc">
-                            <input type="text" id="name" placeholder="Enter Your Name" value={data.name} onChange={(e)=>handle(e)} required />
-                            <input type="email" placeholder="Enter Your Email" required />
-                            <input type="text" placeholder="Enter Your subject" required />
-                            <textarea rows="5" placeholder="Massage"></textarea>
-                            <button type="submit" className="hero-btn" onClick={(e)=>submit(e)}>send massage</button>
+                    <div className="contact-col" >
+                        <form className="comment-formc" >
+                            <input  id="name" type="text" placeholder="Enter Your Name" onChange={handleName} required />
+                            <input type="email" placeholder="Enter Your Email"  onChange={handleEmail} required />
+                            <input type="text" placeholder="Enter Your subject"  onChange={handleSubject} required />
+                            <textarea rows="5" placeholder="Message"  onChange={handleMessage}></textarea>
+                            <button type="submit" className="hero-btn" onClick={submit}>send massage</button>
                         </form>
                     </div>
 
@@ -99,89 +105,7 @@ const Contact = () => {
 
             </section>
 
-            {/* <!-- -------------footer contain-----------------> */}
-            {/* <div className="footer ">
-        <div className="container">
-            <div className="row">
-                <div className="footer-col-1">
-                    <h2>TEСHNОCRАT CONSULTING </h2>
-                    <p style="color: blue;"><b>MR. MILIND SALVE</b> </p>
-                    <p> <b> Mob No</b>:- 8999210639</p>
-                    <p style="color: blue;"> <b> Ms Sachi Waghmare</b> :</p>
-                    <p> <b> Mob No</b>:-7276216671</p>
-                    <p> <b> Email</b>:-technocratconsulting21@gmail.com</p>
-                    <p>Follow-us :-
-                    <div className="social-icon">
-                        <a to="#"><i className="fa fa-facebook-official"></i></a>
-                        <a to="#"><i className="fa fa-instagram"></i></a>
-                        <a to="#"><i className="fa fa-youtube-play"></i></a>
-                        <a to="#"><i className="fa fa-linkedin"></i></a>
-                    </div>
-                    </p>
-                </div>
-                <div className="footer-col-2">
-                    <a to="#" className="links">About Us</a>
-                    <ul>
-                        <li><a to="#">Overview</a></li>
-                        <li><a to="#">Why Technocrat</a></li>
-                        <li><a to="#">Our Journey</a></li>
-                        <li><a to="#">Leadership</a></li>
-                        <li><a to="#">Location</a></li>
-                    </ul>
-                </div>
-                <div className="footer-col-3">
-                    <a to="#" className="links">Expertise</a>
-                    <ul>
-                        <li><a to="#">Overview</a></li>
-                        <li><a to="#">Why Technocrat</a></li>
-                        <li><a to="#">Our Journey</a></li>
-                        <li><a to="#">Leadership</a></li>
-                        <li><a to="#">Location</a></li>
-                    </ul>
-                </div>
-                <div className="footer-col-4">
-                    <a to="#" className="links">Solutions</a>
-                    <ul>
-                        <li><a to="#">Overview</a></li>
-                        <li><a to="#">Why Technocrat</a></li>
-                        <li><a to="#">Our Journey</a></li>
-                        <li><a to="#">Leadership</a></li>
-                        <li><a to="#">Location</a></li>
-                    </ul>
-                </div>
-                <div className="footer-col-4">
-                    <a to="#" className="as">Though Center</a>
-
-                </div>
-                <div className="footer-col-4">
-                    <a to="#" className="links">Contact Us</a>
-
-                </div>
-                <div className="footer-col-4">
-                    <a to="#" className="links">Join Us</a>
-
-                </div>
-            </div>
-        </div>
-    </div> */}
-            {/* <!-- ----------copyright-------------------- --> */}
-            {/* <div className="copyright">
-        <div className="useful-as">
-            <a to="#">About</a>
-            <a to="#">Accessibility</a>
-            <a to="#">Help Center</a>
-            <a to="#">Privacy Policy</a>
-            <a to="#">Advertising</a>
-            <a to="#">Get the App</a>
-            <a to="#">More</a>
-        </div>
-        <div className="copyright-msg">
-            <p>technocratconsulting &#169; 2021.All right reserved</p>
-        </div>
-
-
-    </div> */}
-
+            
         </>
 
     );
