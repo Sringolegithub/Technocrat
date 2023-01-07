@@ -17,14 +17,14 @@ const Footer = () => {
                             <p style={{ color: "blue" }}> <b> Ms Sachi Waghmare</b> :</p>
                             <p> <b> Mob No</b>:-7276216671</p>
                             <p> <b> Email</b>:-technocratconsulting21@gmail.com</p>
-                            <span>Follow-us :-
                                 <div className="social-icon">
-                                    <a to="#"><i className="fa fa-facebook-official"></i></a>
-                                    <a to="#"><i className="fa fa-instagram"></i></a>
-                                    <a to="#"><i className="fa fa-youtube-play"></i></a>
-                                    <a to="#"><i className="fa fa-linkedin"></i></a>
-                                </div>
+                            <span><b> Follow-us :- </b>
+                                    <a to="#"><i className="fa fa-facebook-official" style={{color:"rgb(53, 67, 223)"}}></i></a>
+                                    <a to="#"><i className="fa fa-instagram" style={{color:"rgb(212, 59, 125)" }}></i></a>
+                                    <a to="#"><i className="fa fa-youtube-play" style={{color:"rgb(231, 36, 36)"}}></i></a>
+                                    <a to="#"><i className="fa fa-linkedin" style={{color:"rgb(53, 67, 223)"}}></i></a>
                             </span>
+                                </div>
                         </div>
                         <div className="footer-col-2">
                             <a to="#" className="links">About Us</a>

@@ -12,7 +12,6 @@ const Header=()=>{
     }
 
     const openMenu = () =>{
-        // alert("hi");
         setstyle({});
     }
     return(
