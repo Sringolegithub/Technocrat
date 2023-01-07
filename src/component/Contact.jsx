@@ -88,9 +88,9 @@ const Contact = () => {
                     <div className="contact-col">
                         <form className="comment-formc">
                             <input type="text" id="name" placeholder="Enter Your Name" value={data.name} onChange={(e)=>handle(e)} required />
-                            <input type="email" placeholder="Enter Your Email" required />
-                            <input type="text" placeholder="Enter Your subject" required />
-                            <textarea rows="5" placeholder="Massage"></textarea>
+                            <input type="email" placeholder="Enter Your Email" value={data.email} onChange={(e)=>handle(e)} required />
+                            <input type="text" placeholder="Enter Your subject" value={data.subject} onChange={(e)=>handle(e)} required />
+                            <textarea rows="5" placeholder="Massage" value={data.massage} onChange={(e)=>handle(e)}></textarea>
                             <button type="submit" className="hero-btn" onClick={(e)=>submit(e)}>send massage</button>
                         </form>
                     </div>
