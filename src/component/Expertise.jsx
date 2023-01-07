@@ -34,12 +34,12 @@ const Expertise = () => {
 
         <div className="row-3">
             <h1>Making seamless hiring happen</h1>
-            <div className="col-3">
+            <div className="coll-3">
                 <div className="row-col-3">
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/exp1.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2> Internet</h2>
                         <p>Our industry expertise in both consumer and B2B verticals is
                             far reaching. We cover the length and breadth of internet businesses,
@@ -53,7 +53,7 @@ const Expertise = () => {
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/tech and saas.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2>Technology and SaaS</h2>
                         <p>To keep up with the globally booming technological landscape,
                             tech organisations are on the lookout for talent to build
@@ -67,12 +67,12 @@ const Expertise = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-3">
+            <div className="coll-3">
                 <div className="row-col-3">
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/IT and ofshoring.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2>IT and Offshoring</h2>
                         <p>Being the largest employer of workforce in the country,
                             organisations in IT and Offshoring onboard tens of thousands
@@ -87,7 +87,7 @@ const Expertise = () => {
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/Global and house center.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2>Global In-house Centres (GIC)</h2>
                         <p>We’re proud to have partnered with 100+ global employers in setting
                             up their GICs in India. We help global clients discover the market
@@ -96,12 +96,12 @@ const Expertise = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-3">
+            <div className="coll-3">
                 <div className="row-col-3">
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/EMPI.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2>Engineering, Manufacturing, Process and Infrastructure (EMPI)</h2>
                         <p>The advancement of artificial intelligence and robotics technologies
                             is redefining the recruitment process for employers in the EMPI sector.
@@ -114,7 +114,7 @@ const Expertise = () => {
                     <div className="imgs">
                         <img src="/Assets/images/Expertiesimg/Domestic Bussiness.png"/>
                     </div>
-                    <div className="content">
+                    <div className="contents">
                         <h2>Domestic Businesses</h2>
                         <p>We work with home-grown organisations to transform their current
                             business models and internal technologies. We help them find

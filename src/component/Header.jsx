@@ -23,8 +23,9 @@ const Header=()=>{
                     <Link to="/">
                         <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/"/>
                     </Link>
+                    <a href="/">
                     <h1> TECHNOCRAT</h1>
-                    <ul id="" style={style}>
+                    </a>                   <ul id="" style={style}>
                         <i className="fa fa-times" onClick={closeMenu}></i>
 
                         <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>

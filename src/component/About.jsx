@@ -6,25 +6,7 @@ const About = () => {
         <>
             {/* <!-- ---------------header contain--------------- --> */}
             <div className="header">
-                {/* <div className="conatiner">
-                   <nav>
-                        <Link to="/">
-                            <img src="/Assets/images/logo.jpg" width="70px" height="70px" to="/Home" />
-                        </Link>
-                        <h1> TECHNOCRAT</h1>
-                        <ul id="sidemenu">
-                            <i className="fa fa-times" onclick="closemenu()"></i>
-                            <li><Link to="/about">ABOUT US </Link><span><b>+</b></span></li>
-                            <li><Link to="/Expertise">EXPERTISE</Link><span><b>+</b></span></li>
-                            <li><Link to="/Solutions">SOLUTIONS</Link><span><b>+</b></span></li>
-                            <li><Link to="/ThoughtCenter">THOUGHT CENTER</Link><span><b>+</b></span></li>
-                            <li><Link to="/Contact">CONTACT US</Link><span><b>+</b></span></li>
-                            <li><Link to="/Joinus">JOIN US</Link><span><b>+</b></span></li>
-                        </ul>
-                        <i className="fa fa-bars" onclick="openmenu()"></i>
-                    </nav>
-                    
-                </div>  */}
+               
                 <div className="container-3">
                     <h1>Making bussiness growth</h1>
                 </div>
@@ -163,7 +145,7 @@ const About = () => {
                 </div>
                 <div className="row-3">
                     <h1>Making great teams happen</h1>
-                    <div className="col-3">
+                    <div className="coll-3">
                         <div className="row-col-3">
                             <div className="imgs">
                                 <img src="/Assets/images/AboutImg/Aquisition.png" />
@@ -190,7 +172,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="coll-3">
                         <div className="row-col-3">
                             <div className="imgs">
                                 <img src="/Assets/images/AboutImg/Meeting the talent.png" />
@@ -217,7 +199,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="coll-3">
                         <div className="row-col-3">
                             <div className="imgs">
                                 <img src="/Assets/images/AboutImg/Driving Digitization.png" />
