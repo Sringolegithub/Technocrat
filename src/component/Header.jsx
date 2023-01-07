@@ -37,15 +37,6 @@ const Header=()=>{
                     <i className="fa fa-bars" onClick={openMenu}></i>
                 </nav>
             </div>
-            {/* <div className="container-2">
-                <div className="container-col-2">
-                    <p>We make dreams career happen</p>
-                    <p>We make great team happen</p>
-                    <h1>We Make it happen</h1>
-
-                </div>
-
-            </div> */}
         </div>
 
         </>

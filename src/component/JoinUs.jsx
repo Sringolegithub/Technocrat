@@ -1,9 +1,19 @@
 import React from "react";
-import JoinUsForm from './JoinUsForm';
-
+import {useState} from "react";
+// import JoinUsForm from "./JoinUsForm";
+// import axios from "axios";
 
 const JoinUs = () => {
 
+    
+    // const joinusform=()=>{
+    //     if(){
+
+    //     }
+        
+    // }
+
+   
     return (
 
         <>

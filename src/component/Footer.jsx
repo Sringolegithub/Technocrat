@@ -8,8 +8,8 @@ const Footer = () => {
         <>
             {/* <!-- -------------footer contain-----------------> */}
             <div className="footer ">
-                <div className="container">
-                    <div className="row-f">
+                <div className="container-f">
+                    <div className="row">
                         <div className="footer-col-1">
                             <h2>TEСHNОCRАT CONSULTING </h2>
                             <p style={{ color: "blue" }}><b>MR. MILIND SALVE</b> </p>

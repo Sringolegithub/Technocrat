@@ -54,15 +54,14 @@ nav .fa {
     display: block;
     font-size: 1.6rem;
     float: right;
-    color: rgb(143, 31, 31);
-    
+    color: rgb(37, 196, 196);
 }
 
 nav ul {
     background: #747272;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -16rem;
     height: 100vh;
     width: 15.625rem;
     padding-top: 3.05rem;
@@ -82,13 +81,11 @@ nav ul li span {
 }
 
 nav ul .fa {
-    /* left: 1.6rem;  */
+    left: 1.6rem;
     cursor: pointer;
-    color: #fff;
-    position: absolute;
-    /* top: right; */
-    top: 24px;
-    right: 23px;
+    color: rgb(37, 196, 196);
+    float: right;
+    margin-top: 0.125rem;
 
 }
 
@@ -104,7 +101,7 @@ nav ul li a {
     padding: 0.625rem;
     height: 37.5rem;
     box-sizing: border-box;
-    background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(/Assets/images/bg2.jpg);
+    background-image: radial-gradient(rgba(80, 200, 209, 0.7), rgb(35, 109, 109)), url(/Assets/images/bg2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -229,12 +226,14 @@ nav ul li a {
     background-color: #fff;
     text-align: center;
     margin: 1.25rem auto;
+    box-sizing: border-box;
+    width: 100%;
 
 }
 
 /* ---------css for slider------------  */
 .row-col-1 {
-    /* max-width: 87.5rem; */
+    /* max-width: 67.5rem; */
     margin: 1.25rem;
     width: auto;
     height: 6.25rem;
@@ -242,10 +241,12 @@ nav ul li a {
     overflow: hidden;
 }
 
-.row-col-2 {
+/* .row-col-2 {
     justify-content: space-evenly;
+    width: 100%;
 
-}
+
+} */
 
 
 
@@ -256,10 +257,9 @@ nav ul li a {
     display: flex;
     width: calc(22.8125rem * 6);
 
-}
-.row-col-2{
-    width: 100%;
-    
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(278px * 6);
 }
 
 .row-col-1 .col-5 {
@@ -390,7 +390,7 @@ nav ul li a {
 }
 
 .col-3 {
-  
+
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -419,13 +419,23 @@ nav ul li a {
 .row-col-3 .content{
 width:100%;
 }
-.row-col-4 .content{
-width:100%;
+
+.row-col-4 {
+    display: flex;
+}
+
+.row-col-3 .content {
+    width: 100%;
+}
+
+.row-col-4 .content {
+    width: 100%;
 }
 
 .row-col-3 h2 {
     color: rgb(48, 126, 126);
 }
+
 .row-col-4 h2 {
     color: rgb(48, 126, 126);
 }
@@ -446,7 +456,7 @@ width:100%;
     padding: 0.625rem;
     height: 37.5rem;
     box-sizing: border-box;
-    background-image: radial-gradient(rgba(80, 200, 209, 0.7),rgb(35, 109, 109) ), url(/Assets/images/bg2.jpg);
+    background-image: radial-gradient(rgba(80, 200, 209, 0.7), rgb(35, 109, 109)), url(/Assets/images/bg2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -463,19 +473,21 @@ width:100%;
    
 }
 
-.column-1 .col-div-1{
+.column-1 .col-div-1 {
     width: 30%;
-    
+
 }
-.column-1 .col-div-2{
+
+.column-1 .col-div-2 {
     width: 60%;
-}   
+}
 
 
 
 /* --------------footer--------------- */
 .footer {
     background-color: rgb(217, 229, 235);
+    height: auto;
     color: #8a8a8a;
     font-size: 0.875rem;
     /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
@@ -488,6 +500,12 @@ width:100%;
 }
 
 
+/* .conatiner-f{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+} */
 .footer a {
     text-decoration: none;
     font-size: 0.9375rem;
@@ -497,9 +515,8 @@ width:100%;
     margin-top: 3%;
 }
 
-
-.footer-col-1 h2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.footer-col-1 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .social-icon .fa {
@@ -549,17 +566,19 @@ width:100%;
 }
 
 /* -----------contact us----------- */
-.location{
-	width: 80%;
-	margin: auto;
-	padding: 80px 0;
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
 }
-.location iframe{
-	width: 100%;
+
+.location iframe {
+    width: 100%;
 }
-.contact-us{
-	width: 80%;
-	margin: auto;
+
+.contact-us {
+    width: 80%;
+    margin: auto;
 
 }
 /* .row {
@@ -583,6 +602,7 @@ width:100%;
 	margin: 0.625rem;
 	margin-right: 1.875rem;
 }
+
 .hero-btn {
 	display: inline-block;
 	text-decoration: none;
