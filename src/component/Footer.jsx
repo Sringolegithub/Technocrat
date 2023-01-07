@@ -9,7 +9,7 @@ const Footer = () => {
             {/* <!-- -------------footer contain-----------------> */}
             <div className="footer ">
                 <div className="container-f">
-                    <div className="row">
+                    <div className="row-f">
                         <div className="footer-col-1">
                             <h2>TEСHNОCRАT CONSULTING </h2>
                             <p style={{ color: "blue" }}><b>MR. MILIND SALVE</b> </p>
@@ -75,7 +75,7 @@ const Footer = () => {
             {/* <!-- ----------copyright-------------------- --> */}
 
             <div className="copyright">
-                <div className="useful-as">
+                <div className="useful-links">
                     <a to="#">About</a>
                     <a to="#">Accessibility</a>
                     <a to="#">Help Center</a>
@@ -85,7 +85,7 @@ const Footer = () => {
                     <a to="#">More</a>
                 </div>
                 <div className="copyright-msg">
-                    <p>technocratconsulting &#169; 2021.All right reserved</p>
+                    <p>technocrat consulting &#169; 2021. All right reserved</p>
                 </div>
             </div>
 
