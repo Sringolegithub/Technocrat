@@ -76,16 +76,21 @@ const Footer = () => {
 
             <div className="copyright">
                 <div className="useful-links">
-                    <a to="#">About</a>
-                    <a to="#">Accessibility</a>
-                    <a to="#">Help Center</a>
-                    <a to="#">Privacy Policy</a>
-                    <a to="#">Advertising</a>
-                    <a to="#">Get the App</a>
-                    <a to="#">More</a>
+                    <a to="#" >About</a>
+                    |
+                    <a to="#" >Accessibility</a>
+                    |
+                    <a to="#" >Help Center</a>
+                    |
+                    <a to="#" >Privacy Policy</a>
+                    |
+                    <a to="#" >Advertising</a>
+                    |
+                    <a to="#" > Get the App</a>
+                    
                 </div>
                 <div className="copyright-msg">
-                    <p>technocrat consulting &#169; 2021. All right reserved</p>
+                    <p >technocrat consulting &#169; 2021. All right reserved</p>
                 </div>
             </div>
 
