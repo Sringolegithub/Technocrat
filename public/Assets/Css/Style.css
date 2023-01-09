@@ -3,6 +3,9 @@
     text-decoration: none;
 }
 
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+}
 
 * {
     padding: 0;

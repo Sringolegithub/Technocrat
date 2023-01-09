@@ -19,7 +19,7 @@ const JoinUsForm = (props) => {
                         <input className="form-control m-1" type="text" placeholder="Enter Your Address" required />
                     </div>
                     <div className="col">
-                        <input className="form-control m-1" type="date" placeholder="Enter Your DOB" required />
+                        <input className="form-control m-1" type="date" placeholder="Date Of Birth:-" required />
                         <input className="form-control m-1" type="text" placeholder="Enter Your Heighest Qualification" required />
                         <input className="form-control m-1" type="number" min="0" max="100" placeholder="Enter Your CGPA/Percentage" required />
                     </div>
