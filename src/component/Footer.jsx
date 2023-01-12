@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
                                 </div>
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="links">About Us</a>
+                            <Link to="/about" className="links">About Us</Link>
                             <ul>
                                 <li><a to="#">Overview</a></li>
                                 <li><a to="#">Why Technocrat</a></li>
@@ -37,7 +38,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="links">Expertise</a>
+                            <Link to="/expertise" className="links">Expertise</Link>
                             <ul>
                                 <li><a to="#">Overview</a></li>
                                 <li><a to="#">Why Technocrat</a></li>
@@ -47,7 +48,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="links">Solutions</a>
+                            <Link to="/solutions" className="links">Solutions</Link>
                             <ul>
                                 <li><a to="#">Overview</a></li>
                                 <li><a to="#">Why Technocrat</a></li>
@@ -57,15 +58,15 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="as">Though Center</a>
+                            <Link to="/thought-center" className="as">Though Center</Link>
 
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="links">Contact Us</a>
+                            <Link to="/contactus" className="links">Contact Us</Link>
 
                         </div>
                         <div className="footer-col-2">
-                            <a to="#" className="links">Join Us</a>
+                            <Link to="joinus" className="links">Join Us</Link>
 
                         </div>
                     </div>
@@ -76,21 +77,21 @@ const Footer = () => {
 
             <div className="copyright">
                 <div className="useful-links">
-                    <a to="#" >About</a>
+                    <Link to="/about" style={{color:"white"}}> About </Link>
                     |
-                    <a to="#" >Accessibility</a>
+                    <a to="#" > Accessibility </a>
                     |
-                    <a to="#" >Help Center</a>
+                    <a to="#" > Help Center </a>
+                    |   
+                    <a to="#" > Privacy Policy </a>
                     |
-                    <a to="#" >Privacy Policy</a>
+                    <a to="#" > Advertising </a>
                     |
-                    <a to="#" >Advertising</a>
-                    |
-                    <a to="#" > Get the App</a>
+                    <a to="#" > Get the App </a>
                     
                 </div>
                 <div className="copyright-msg">
-                    <p >technocrat consulting &#169; 2021. All right reserved</p>
+                    <p >Technocrat Consulting &#169; 2021. All right reserved</p>
                 </div>
             </div>
 

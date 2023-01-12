@@ -1,12 +1,4 @@
 
-#GFG {
-    text-decoration: none;
-}
-
-input[type="date"]:before {
-    content: attr(placeholder) !important;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -27,8 +19,12 @@ input[type="date"]:before {
     background-color: #fff;
     margin-bottom: 1%;
     overflow: hidden;
-
 }
+
+#GFG {
+    text-decoration: none;
+}
+
 
 .conatiner {
     width: 100%;
@@ -498,7 +494,34 @@ nav ul li a {
 }
 
 
-/* --------------footer--------------- */
+/* -------------------------------Join Us---------------------------- */
+
+.start{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.joinusform{
+    margin: 1rem 42rem 1rem 42rem;
+    
+}
+.right-bottom{
+    text-align: center;
+}
+/* .main-content{
+display: flex;
+} */
+
+
+
+
+            /* ---------------JoinUs Form ------------- */
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+}
+
+
+/* --------------------------------footer------------------------------ */
 
 .footer {
     background-color: rgb(217, 229, 235);

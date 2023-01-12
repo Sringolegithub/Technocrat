@@ -7,25 +7,6 @@ const ThoughtCenter = () => {
 
         <>
             <div className="header">
-        {/* <!-- <div className="conatiner">
-            <nav>
-                <a href="index.html">
-                    <img src="images/logo.jpg" width="70px" height="70px" href="/index.html">
-                </a>
-                <h1> TECHNOCRAT</h1>
-                <ul id="sidemenu">
-                    <i className="fa fa-times" onclick="closemenu()"></i>
-
-                    <li><a href="About.html">ABOUT US </a><span><b>+</b></span></li>
-                    <li><a href="Expertise.html">EXPERTISE</a><span><b>+</b></span></li>
-                    <li><a href="Solutions.html">SOLUTIONS</a><span><b>+</b></span></li>
-                    <li><a href="Thought-Center.html">THOUGHT CENTER</a><span><b>+</b></span></li>
-                    <li><a href="ContactUs.html">CONTACT US</a><span><b>+</b></span></li>
-                    <li><a href="JoinUs.html">JOIN US</a><span><b>+</b></span></li>
-                </ul>
-                <i className="fa fa-bars" onclick="openmenu()"></i>
-            </nav>
-        </div> --> */}
         <div className="container-3">
             <h1>WE MAKE IT HAPPEN</h1>
         </div>
