@@ -198,6 +198,12 @@ const Home = () => {
                             <div className="col-5">
                                 <img src="/Assets/images/Partners Logo/Virtual GalaxyLogo.png" />
                             </div>
+                            <div className="col-5">
+                                <img src="/Assets/images/Partners Logo/InfotechLogo.png" />
+                            </div>
+                            <div className="col-5">
+                                <img src="/Assets/images/Partners Logo/SmartLogo.png" />
+                            </div>
                         </div>
                     </div>
 
