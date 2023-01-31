@@ -6,25 +6,7 @@ const Expertise = () => {
 
         <>
         <div className="header">
-        {/* <div className="conatiner">
-            <nav>
-                <a to="index.html">
-                    <img src="images/logo.jpg" width="70px" height="70px" to="/index.html"/>
-                </a>
-                <h1> TECHNOCRAT</h1>
-                <ul id="sidemenu">
-                    <i className="fa fa-times" onclick="closemenu()"></i>
-
-                    <li><a to="About.html">ABOUT US </a><span><b>+</b></span></li>
-                    <li><a to="Expertise.html">EXPERTISE</a><span><b>+</b></span></li>
-                    <li><a to="Solutions.html">SOLUTIONS</a><span><b>+</b></span></li>
-                    <li><a to="Thought-Center.html">THOUGHT CENTER</a><span><b>+</b></span></li>
-                    <li><a to="ContactUs.html">CONTACT US</a><span><b>+</b></span></li>
-                    <li><a to="JoinUs.html">JOIN US</a><span><b>+</b></span></li>
-                </ul>
-                <i className="fa fa-bars" onclick="openmenu()"></i>
-            </nav>
-        </div> */}
+        
         <div className="container-3">
             <h1>We Making futute-ready talent happen</h1>
         </div>
